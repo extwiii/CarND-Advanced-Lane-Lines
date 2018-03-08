@@ -13,13 +13,19 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[image1]: ./model_images/output_5_0.png "Undistorted"
+[image2]: ./model_images/output_6_0.png "Road Transformed"
+[image3_1]: ./model_images/output_9_0.png "Binary Example"
+[image3_2]: ./model_images/output_10_0.png "Binary Example"
+[image3_3]: ./model_images/output_12_0.png "Binary Example"
+[image3_4]: ./model_images/output_14_0.png "Binary Example"
+[image3_5]: ./model_images/output_15_0.png "Binary Example"
+[image3_6]: ./model_images/output_18_0.png "Binary Example"
+[image3_7]: ./model_images/output_19_0.png "Binary Example"
+[image4]: ./model_images/output_24_0.png "Warp Example"
+[image5]: ./model_images/output_30_1.png "Fit Visual"
+[image6]: ./model_images/output_36_0.png "Output"
+[video1]: ./advanced_lane_line.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -55,7 +61,13 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 
 I used a combination of color and gradient thresholds to generate a binary image (thresholding steps below).  Here's an example of my output for this step.
 
-![alt text][image3]
+![alt text][image3_1]
+![alt text][image3_2]
+![alt text][image3_3]
+![alt text][image3_4]
+![alt text][image3_5]
+![alt text][image3_6]
+![alt text][image3_7]
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
